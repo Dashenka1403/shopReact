@@ -1,0 +1,70 @@
+@import '/src/styles/variables';
+.card{
+
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    padding: 20px;
+    box-shadow: 0 0 20px 0 #0000001A;
+    border-radius: 20px;
+    width: 350px;
+    height: 407px;
+    background-color: #FFFFFF;
+    font-weight: 600;
+   
+
+    &__image{
+        display: flex;
+       justify-content: center;
+    }
+
+    &__info{
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 40px;
+        gap: 7px;
+        &__title-rating{
+           display: flex;
+            flex-direction: column;
+            gap: 25px;
+            //padding: 10px; 
+            //color: red;      
+            &_rating{
+                display: flex;
+                gap: 5px;
+                flex-direction: row;
+            }
+        }
+        &__list{
+            display: flex;
+            flex-direction: column;
+           // margin-left: auto;
+   
+            gap: 20px;
+            // overflow: auto;
+            // height: 100px;
+            &__price{
+                color:$color-orange;
+            }
+        }
+    
+
+    }
+   
+   
+
+    &__icon{
+        display: flex;
+        margin-left: auto;
+        cursor: pointer;
+            &:hover{
+                opacity: 0.7;
+            }
+      
+    }
+
+    
+   
+}

@@ -1,0 +1,26 @@
+@import '/src/styles/variables';
+.total-list{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 120px;
+    overflow: auto;
+    box-shadow: 0 0 20px 0 #0000001A;
+    border-radius: 20px;
+    background-color: white;
+    font-weight: 600;
+
+    &__line{
+        display: flex;
+        padding: 20px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    &__button{
+        display: flex;
+        width: 347px;
+        height: 65px;
+        //justify-content: end;
+        align-items: center;
+    }
+}

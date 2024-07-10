@@ -1,0 +1,35 @@
+@import 'src/styles/variables.scss';
+
+.main-page{
+    
+        //padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+     
+        
+        //justify-content: center;
+
+        &__headphones{
+            display: flex;
+            flex-direction: column;
+            gap:15px;
+            padding-bottom: 30px;
+            align-items: center;
+            &__line{
+                display: flex;
+                flex-direction: row;
+                gap: 15px;
+            }
+            
+        }
+        &__title{
+            display: flex;
+            justify-content: start;
+            font-size: 20px;
+            color: #838383;
+            margin-right: auto;
+        }
+
+    
+}

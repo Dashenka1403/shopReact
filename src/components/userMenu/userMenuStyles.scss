@@ -1,0 +1,25 @@
+@import '../../styles/variables.scss';
+
+.user-menu{
+   
+    cursor: pointer;
+   
+    &__underlay{
+        position: fixed;
+        inset: 0;
+        background-color: $color-menu-backgroud;
+    }
+
+    &__menu{
+        display: flex;
+        flex-direction: column;
+        gap:10px
+    }
+
+    &__menu-item{
+        &:hover{
+            opacity: 0.7;
+            color: #FFA542;
+         }
+    }
+}
